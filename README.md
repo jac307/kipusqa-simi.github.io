@@ -74,3 +74,8 @@ Reproducir dos o más sonidos
 Añandir `simi[]` y poner los sonidos adentro de los corchetes `[]`, separados con comas `,`:  
 
 + `simi[puriypaqarinakuna"CHAQUY(-0.5)llimpi(6), puriypisqu"]`
+
+
+## Vista en Estuary
+Correr en terminal:
++`!localview (grid 2 1 [[code 5 0],[code 7 0]])`
