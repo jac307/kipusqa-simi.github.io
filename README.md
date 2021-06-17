@@ -1,6 +1,18 @@
 # kipusqa-simi.github.io
 Proyect: Kipusqa Simi
 
+## setup
+
+1. Ir a https://estuary.mcmaster.ca - Collaborate - Ensemble: kipusqa, password: quechua
+2. Correr las líneas de audio en la terminal:  
++`!insertaudioresource "https://jac307.github.io/kipusqa-simi.github.io/samples/muhu.wav?raw=true"  simi 0`
++`!insertaudioresource "https://jac307.github.io/kipusqa-simi.github.io/samples/paqarina.wav?raw=true"  simi 1`
++`!insertaudioresource "https://jac307.github.io/kipusqa-simi.github.io/samples/pisqu.wav?raw=true"  simi 2` 
+3. Evaluar ##JSoLang yupana  
+4. Evaluar ##JSoLang simi  
+5. Correr en la terminal:  
++`!localview (grid 2 1 [[code 5 0],[code 7 0]])`
+
 
 ## yupana [visuales]
 
@@ -34,11 +46,6 @@ Se debe separar cada oración con punto y coma `;`:
 
 
 ## simi [sonidos]
-
-Correr las siguientes líneas de código en la terminal:  
-+`!insertaudioresource "https://jac307.github.io/kipusqa-simi.github.io/samples/muhu.wav?raw=true"  simi 0`
-+`!insertaudioresource "https://jac307.github.io/kipusqa-simi.github.io/samples/paqarina.wav?raw=true"  simi 1`
-+`!insertaudioresource "https://jac307.github.io/kipusqa-simi.github.io/samples/pisqu.wav?raw=true"  simi 2` 
 
 Syntaxis oración básica  
 + `Puriymuhu"` o `Puriy muhu"`
@@ -76,6 +83,7 @@ Añandir `simi[]` y poner los sonidos adentro de los corchetes `[]`, separados c
 + `simi[puriypaqarinakuna"CHAQUY(-0.5)llimpi(6), puriypisqu"]`
 
 
-## Vista en Estuary
-Correr en terminal:
-+`!localview (grid 2 1 [[code 5 0],[code 7 0]])`
+## Info Extra:
+Para volver a la vista por defecto se puede refrescar la páguina del browser o correr la siguiente línea en la terminal:
++`!localview !( grid 2 3 [[code 1 0],[code 3 0],[code 5 0],[code 7 0],[code 9 0],[code 11 0]] )`
+
