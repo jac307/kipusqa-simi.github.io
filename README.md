@@ -3,7 +3,7 @@ Proyect: Kipusqa Simi
 
 ## setup
 
-1. Ir a https://estuary.mcmaster.ca - Collaborate - Ensemble: kipusqa, password: quechua
+1. Ir a https://estuary.mcmaster.ca - Collaborate - Ensemble: **kipusqa**, password: *quechua**
 2. Correr las líneas de audio en la terminal:  
 +`!insertaudioresource "https://jac307.github.io/kipusqa-simi.github.io/samples/muhu.wav?raw=true"  simi 0`
 +`!insertaudioresource "https://jac307.github.io/kipusqa-simi.github.io/samples/paqarina.wav?raw=true"  simi 1`
