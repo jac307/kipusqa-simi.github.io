@@ -1,5 +1,5 @@
 ##JSoLang yupana
--- para visuales:
+// para visuales:
 
 main = x:allRules* { return "##cineCer0\n" + x.join("") }
 allRules = _ / Puriy / chaquy / Llimpi / Ayphu / ta / ñan / ñawi / nina / anyCharacter
